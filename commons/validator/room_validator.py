@@ -1,0 +1,33 @@
+guest_search_request = {
+    "facilities": "intarray",
+    "checkin": "string",
+    "checkout": "string",
+    "min_price": "integer",
+    "max_price": "integer",
+    "type": "integer",
+    "number_info": "intarray",
+    "guest_area": "integer",
+    "host_language": "string",
+    "superhost": "boolean",
+    "address_name": "string",
+    "center_coordinate": "floatarray",
+    "radius": "float",
+    "region_1depth_name": "string",
+    "region_2depth_name": "string",
+    "region_3depth_name": "string",
+    "country_id": "integer",
+    "h_code": "integer",
+    "b_code": "integer",
+    "main_address_no": "integer",
+    "sub_address_no": "integer",
+    "page": "integer",
+    "per_page": "integer",
+}
+
+make_reservation_request = {
+    "room_id": "integer",
+    "checkin": "string",
+    "checkout": "string",
+    "price": "integer",
+    "number_of_guests": "integer",
+}

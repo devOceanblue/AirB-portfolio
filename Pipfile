@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+gunicorn = "*"
+pre-commit = "*"
+flask-cors = "*"
+flask-sqlalchemy = "*"
+pymysql = "*"
+marshmallow-sqlalchemy = "*"
+flask-marshmallow = "*"
+bcrypt = "*"
+flask-jwt-extended = "==4.4.1"
+flask-mail = "*"
+redis = "*"
+flasgger = "*"
+pytest = "*"
+pytest-flask = "*"
+google-cloud-storage = "*"
+openpyxl = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
